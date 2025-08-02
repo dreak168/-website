@@ -51,14 +51,31 @@ ul, ol {
 .invite-btn.green {
   background: #43a047;
 }
-.avatar-img {
-  border-radius: 50%;
-  object-fit: cover;
-  max-width: 220px;
-  max-height: 220px;
-  width: auto;
-  height: auto;
+
+/* 新增 footer 按鈕樣式 */
+.footer-btn-row {
+  display: flex;
+  justify-content: center;
+  gap: 4em;
+  margin: 2em 0;
 }
+.footer-btn {
+  display: inline-block;
+  padding: 0.8em 2em;
+  border-radius: 8px;
+  background: #1976d2;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.footer-btn:hover {
+  background: #1565c0;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
 .avatar-img {
   border-radius: 50%;
   object-fit: cover;
@@ -84,4 +101,6 @@ ul, ol {
   .avatar-img { width: 120px !important; height: 120px !important; }
   .feature-img { max-width: 98vw; }
   .team-member img { width: 60px; height: 60px; }
+  .footer-btn-row { gap: 1em; flex-wrap: wrap; }
+  .footer-btn { padding: 0.7em 1em; font-size: 1em; }
 }
