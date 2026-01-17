@@ -41,6 +41,8 @@ body {
   overflow-x: hidden;
   min-height: 100vh;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Background Shapes */
@@ -59,6 +61,8 @@ body {
   height: 50vw;
   background: radial-gradient(circle, var(--primary-blue), transparent 70%);
   animation: float 20s infinite ease-in-out;
+  position: fixed;
+  /* Stop affecting scroll layout */
 }
 
 .shape-2 {
@@ -68,6 +72,8 @@ body {
   height: 40vw;
   background: radial-gradient(circle, var(--primary-green), transparent 70%);
   animation: float 15s infinite ease-in-out reverse;
+  position: fixed;
+  /* Stop affecting scroll layout */
 }
 
 @keyframes float {
@@ -114,6 +120,9 @@ main {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 24px;
+  flex: 1;
+  width: 100%;
+  /* Ensure it takes full width within container */
 }
 
 section {
@@ -431,10 +440,17 @@ section {
 /* Footer */
 footer {
   text-align: center;
-  padding: 3rem 0;
+  padding: 2rem 0 1rem 0;
+  /* Reduced bottom padding */
   border-top: 1px solid rgba(255, 255, 255, 0.05);
   color: var(--text-secondary);
   font-size: 0.9rem;
+  margin-top: auto;
+  /* Ensure it stays at bottom in flex container */
+}
+
+footer p {
+  margin: 0;
 }
 
 /* Footer Buttons */
