@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+  <meta charset="utf-8">
+  <title>Discord bot藍頭&amp;大瓜哥</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="藍頭&amp;大瓜哥,是兩台特殊機器人,能為您的伺服器帶來更多樂趣和歡笑!">
+	<meta name="google-site-verification" content="y4WiNPyr3UInQV4ik0gCX2Zy2pZP00-hVa1EgsKdads" />
+	<link rel="icon" type="image/png" sizes="32x32" href="image/藍頭.png">
+	<link rel="shortcut icon" href="image/藍頭.png">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+    <h1 class="main-title"><strong>Discord bot藍頭&amp;大瓜哥</strong></h1>
+  </header>
+  <main>
+    <section>
+      <h2 class="center-title">為枯燥的伺服器增添樂趣</h2>
+      <p class="center-title">藍頭&amp;大瓜哥,是兩台特殊機器人,能為您的伺服器帶來更多樂趣和歡笑!</p>
+      <div class="btn-row">
+        <a href="https://discord.com/oauth2/authorize?client_id=1268134953754038272" target="_blank" class="invite-btn blue">邀請藍頭</a>
+        <a href="https://discord.com/oauth2/authorize?client_id=1279496225179308112&amp;permissions=1689917160016960&amp;integration_type=0&amp;scope=bot" target="_blank" class="invite-btn green">邀請大瓜哥</a>
+      </div>
+      <div class="avatar-row">
+        <img src="image/藍頭.png" alt="藍頭" class="avatar-img">
+        <img src="image/大瓜哥.png" alt="大瓜哥" class="avatar-img">
+      </div>
+    </section>
+    <section class="center-title">
+      <h2>功能特色</h2>
+      <ul class="center-list">
+        <li><strong>有趣的回覆：</strong>藍頭會回覆使用者，內容出其不意，盡情享受探索的樂趣！</li>
+        <li><strong>多元指令：</strong>藍頭和大瓜哥都內建多種指令，增加伺服器的可玩性質！</li>
+      </ul>
+    </section>
+    <section class="center-title">
+      <h2>藍頭功能</h2>
+      <ol class="center-list">
+        <li>有人刪除訊息，藍頭會做出反應</li>
+        <li>有人修改訊息，藍頭會做出反應</li>
+        <li>有人回覆藍頭，藍頭會做出反應</li>
+        <li>斜槓指令（可在與藍頭的私人訊息中使用）</li>
+      </ol>
+      <p>以上是藍頭機器人的功能，如有更新會隨時公告！</p>
+    </section>
+    <section class="center-title">
+      <h2>大瓜哥功能</h2>
+      <img src="image/大瓜哥功能.png" alt="大瓜哥指令說明" class="feature-img">
+      <p>以上是大瓜哥機器人的功能，如有更新會隨時公告！</p>
+    </section>
+    <section>
+      <h2 class="center-title">藍頭&amp;大瓜哥開發團隊</h2>
+      <div class="flex-center">
+        <div class="center-title team-member">
+          <h3>王曉明&nbsp;</h3>
+          <p>藍頭開發者</p>
+        </div>
+        <div class="center-title team-member">
+          <h3>Allen Williams</h3>
+          <p>大瓜哥開發者</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2 class="center-title">了解更多</h2>
+      <div class="footer-btn-row">
+        <a class="footer-btn" href="https://dreak168.github.io/-terms-of-service/%E8%97%8D%E9%A0%AD%E6%9C%8D%E5%8B%99%E6%A2%9D%E6%AC%BE" target="_blank">藍頭服務條款</a>
+        <a class="footer-btn" href="https://discord.gg/pQCSyXxD2V" target="_blank">藍頭&amp;大瓜哥共同研發中心</a>
+        <a class="footer-btn" href="https://dreak168.github.io/-privacy-policy/%E8%97%8D%E9%A0%AD%E9%9A%B1%E7%A7%81%E6%94%BF%E7%AD%96" target="_blank">藍頭隱私政策</a>
+      </div>
+    </section>
+  </main>
+  <footer class="center-title" style="margin:2em 0;">
+    <span>版權所有©藍頭&amp;大瓜哥共同研發中心</span>
+  </footer>
+</body>
+</html>

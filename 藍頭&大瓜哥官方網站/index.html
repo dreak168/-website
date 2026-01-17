@@ -1,78 +1,190 @@
 <!DOCTYPE html>
 <html lang="zh-tw">
+
 <head>
   <meta charset="utf-8">
-  <title>Discord bot藍頭&amp;大瓜哥</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="藍頭&amp;大瓜哥,是兩台特殊機器人,能為您的伺服器帶來更多樂趣和歡笑!">
-	<meta name="google-site-verification" content="y4WiNPyr3UInQV4ik0gCX2Zy2pZP00-hVa1EgsKdads" />
-	<link rel="icon" type="image/png" sizes="32x32" href="image/藍頭.png">
-	<link rel="shortcut icon" href="image/藍頭.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>藍頭 & 大瓜哥 | 最有趣的 Discord 機器人</title>
+  <meta name="description" content="藍頭&大瓜哥是兩台充滿個性的 Discord 機器人，提供斜槓指令、互動回覆與豐富的娛樂功能，為您的伺服器帶來無限歡笑！">
+
+  <!-- SEO & Social Meta Tags -->
+  <meta property="og:title" content="藍頭 & 大瓜哥 | 最有趣的 Discord 機器人">
+  <meta property="og:description" content="讓藍頭與大瓜哥加入您的伺服器！擁有自動回應、趣味指令與更多隱藏彩蛋，立即體驗！">
+  <meta property="og:image" content="image/藍頭.png"> <!-- 建議之後換成一張專門的 Banner 圖 -->
+  <meta property="og:url"
+    content="https://dreak168.github.io/-website/%E8%97%8D%E9%A0%AD&%E5%A4%A7%E7%93%9C%E5%93%A5%E5%AE%98%E6%96%B9%E7%B6%B2%E7%AB%99/">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#2196f3">
+
+  <meta name="google-site-verification" content="y4WiNPyr3UInQV4ik0gCX2Zy2pZP00-hVa1EgsKdads" />
+  <link rel="icon" type="image/png" sizes="32x32" href="image/藍頭.png">
+  <link rel="shortcut icon" href="image/藍頭.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Poppins:wght@400;600;800&display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-  <header>
-    <h1 class="main-title"><strong>Discord bot藍頭&amp;大瓜哥</strong></h1>
-  </header>
-  <main>
-    <section>
-      <h2 class="center-title">為枯燥的伺服器增添樂趣</h2>
-      <p class="center-title">藍頭&amp;大瓜哥,是兩台特殊機器人,能為您的伺服器帶來更多樂趣和歡笑!</p>
+
+  <!-- Background Decoration -->
+  <div class="bg-shape shape-1"></div>
+  <div class="bg-shape shape-2"></div>
+
+  <header class="hero-section">
+    <div class="hero-content">
+      <h1 class="main-title">Discord Bot<br><span class="highlight-blue">藍頭</span> & <span
+          class="highlight-green">大瓜哥</span></h1>
+      <p class="hero-subtitle">為您的 Discord 伺服器注入靈魂與歡笑</p>
+
+      <div class="hero-avatars">
+        <div class="avatar-wrapper blue-glow">
+          <img src="image/藍頭.png" alt="藍頭" class="avatar-img">
+        </div>
+        <div class="avatar-wrapper green-glow">
+          <img src="image/大瓜哥.png" alt="大瓜哥" class="avatar-img">
+        </div>
+      </div>
+
       <div class="btn-row">
-        <a href="https://discord.com/oauth2/authorize?client_id=1268134953754038272" target="_blank" class="invite-btn blue">邀請藍頭</a>
-        <a href="https://discord.com/oauth2/authorize?client_id=1279496225179308112&amp;permissions=1689917160016960&amp;integration_type=0&amp;scope=bot" target="_blank" class="invite-btn green">邀請大瓜哥</a>
+        <a href="https://discord.com/oauth2/authorize?client_id=1268134953754038272" target="_blank"
+          class="btn primary-btn blue-btn">
+          <span class="btn-icon">🤖</span> 邀請藍頭
+        </a>
+        <a href="https://discord.com/oauth2/authorize?client_id=1279496225179308112&permissions=1689917160016960&integration_type=0&scope=bot"
+          target="_blank" class="btn primary-btn green-btn">
+          <span class="btn-icon">🤖</span> 邀請大瓜哥
+        </a>
       </div>
-      <div class="avatar-row">
-        <img src="image/藍頭.png" alt="藍頭" class="avatar-img">
-        <img src="image/大瓜哥.png" alt="大瓜哥" class="avatar-img">
-      </div>
-    </section>
-    <section class="center-title">
-      <h2>功能特色</h2>
-      <ul class="center-list">
-        <li><strong>有趣的回覆：</strong>藍頭會回覆使用者，內容出其不意，盡情享受探索的樂趣！</li>
-        <li><strong>多元指令：</strong>藍頭和大瓜哥都內建多種指令，增加伺服器的可玩性質！</li>
-      </ul>
-    </section>
-    <section class="center-title">
-      <h2>藍頭功能</h2>
-      <ol class="center-list">
-        <li>有人刪除訊息，藍頭會做出反應</li>
-        <li>有人修改訊息，藍頭會做出反應</li>
-        <li>有人回覆藍頭，藍頭會做出反應</li>
-        <li>斜槓指令（可在與藍頭的私人訊息中使用）</li>
-      </ol>
-      <p>以上是藍頭機器人的功能，如有更新會隨時公告！</p>
-    </section>
-    <section class="center-title">
-      <h2>大瓜哥功能</h2>
-      <img src="image/大瓜哥功能.png" alt="大瓜哥指令說明" class="feature-img">
-      <p>以上是大瓜哥機器人的功能，如有更新會隨時公告！</p>
-    </section>
-    <section>
-      <h2 class="center-title">藍頭&amp;大瓜哥開發團隊</h2>
-      <div class="flex-center">
-        <div class="center-title team-member">
-          <h3>王曉明&nbsp;</h3>
-          <p>藍頭開發者</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="features-section">
+      <h2 class="section-title">✨ 功能特色</h2>
+      <div class="card-grid">
+        <div class="feature-card">
+          <div class="card-icon">💬</div>
+          <h3>有趣回覆</h3>
+          <p>藍頭會隨機應變回覆使用者，內容出其不意，帶來意想不到的驚喜。</p>
         </div>
-        <div class="center-title team-member">
+        <div class="feature-card">
+          <div class="card-icon">⚡</div>
+          <h3>即時互動</h3>
+          <p>刪除或修改訊息時，藍頭都會敏銳地發現並做出反應，讓聊天室更熱鬧。</p>
+        </div>
+        <div class="feature-card">
+          <div class="card-icon">🎮</div>
+          <h3>多元指令</h3>
+          <p>內建多種娛樂與實用指令，無論是藍頭還是大瓜哥，都能滿足你的需求。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bot-details-section">
+      <div class="bot-block">
+        <h2 class="section-title blue-text">🔵 藍頭功能</h2>
+        <div class="command-list">
+          <div class="command-item">
+            <span class="cmd-trigger">刪除訊息</span>
+            <span class="cmd-desc">當有人刪除訊息時，藍頭會立刻做出反應。</span>
+          </div>
+          <div class="command-item">
+            <span class="cmd-trigger">修改訊息</span>
+            <span class="cmd-desc">修改訊息時藍頭會立刻跳出來打嘴砲。</span>
+          </div>
+          <div class="command-item">
+            <span class="cmd-trigger">回覆藍頭</span>
+            <span class="cmd-desc">試著跟藍頭聊天，看看他會說什麼？</span>
+          </div>
+          <div class="command-item">
+            <span class="cmd-trigger">/斜槓指令</span>
+            <span class="cmd-desc">支援豐富的 Slash Commands，也可在私訊中使用。</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="bot-block">
+        <h2 class="section-title green-text">🟢 大瓜哥功能</h2>
+        <!-- 將原本的圖片轉化為更易讀的列表，但也保留圖片作為參考 -->
+        <p class="section-desc">大瓜哥擁有強大的指令庫，以下是精選功能：</p>
+
+        <div class="command-grid">
+          <div class="cmd-card">
+            <code>/help</code>
+            <p>顯示所有指令說明</p>
+          </div>
+          <div class="cmd-card">
+            <code>/ping</code>
+            <p>查看機器人延遲</p>
+          </div>
+          <div class="cmd-card">
+            <code>/user-info</code>
+            <p>查看使用者資訊</p>
+          </div>
+          <div class="cmd-card">
+            <code>/server-info</code>
+            <p>查看伺服器資訊</p>
+          </div>
+          <div class="cmd-card">
+            <code>更多指令...</code>
+            <p>邀請大瓜哥探索更多！</p>
+          </div>
+        </div>
+        <!-- 保留原圖作為補充，但縮小並精緻化 -->
+        <div class="image-showcase">
+          <img src="image/大瓜哥功能.png" alt="大瓜哥完整指令表" class="feature-img-styled">
+          <p class="img-caption">完整指令一覽表</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="team-section">
+      <h2 class="section-title">👨‍💻 開發團隊</h2>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="member-avatar">
+            <!-- Placeholder for avatar, utilizing css to make it look good if no specific image -->
+            <span class="initial">王</span>
+          </div>
+          <h3>王曉明</h3>
+          <p class="role blue-tag">藍頭開發者</p>
+        </div>
+        <div class="team-card">
+          <div class="member-avatar">
+            <span class="initial">A</span>
+          </div>
           <h3>Allen Williams</h3>
-          <p>大瓜哥開發者</p>
+          <p class="role green-tag">大瓜哥開發者</p>
         </div>
       </div>
     </section>
-    <section>
-      <h2 class="center-title">了解更多</h2>
+
+    <section class="links-section">
+      <h2 class="section-title">🔗 了解更多</h2>
       <div class="footer-btn-row">
-        <a class="footer-btn" href="https://dreak168.github.io/-terms-of-service/%E8%97%8D%E9%A0%AD%E6%9C%8D%E5%8B%99%E6%A2%9D%E6%AC%BE" target="_blank">藍頭服務條款</a>
-        <a class="footer-btn" href="https://discord.gg/pQCSyXxD2V" target="_blank">藍頭&amp;大瓜哥共同研發中心</a>
-        <a class="footer-btn" href="https://dreak168.github.io/-privacy-policy/%E8%97%8D%E9%A0%AD%E9%9A%B1%E7%A7%81%E6%94%BF%E7%AD%96" target="_blank">藍頭隱私政策</a>
+        <a class="footer-btn glass-btn"
+          href="https://dreak168.github.io/-terms-of-service/%E8%97%8D%E9%A0%AD%E6%9C%8D%E5%8B%99%E6%A2%9D%E6%AC%BE"
+          target="_blank">服務條款</a>
+        <a class="footer-btn glass-btn" href="https://discord.gg/pQCSyXxD2V" target="_blank">加入官方與研發群組</a>
+        <a class="footer-btn glass-btn"
+          href="https://dreak168.github.io/-privacy-policy/%E8%97%8D%E9%A0%AD%E9%9A%B1%E7%A7%81%E6%94%BF%E7%AD%96"
+          target="_blank">隱私政策</a>
       </div>
     </section>
   </main>
-  <footer class="center-title" style="margin:2em 0;">
-    <span>版權所有©藍頭&amp;大瓜哥共同研發中心</span>
+
+  <footer>
+    <div class="footer-content">
+      <p>版權所有 © 2026 藍頭 & 大瓜哥共同研發中心</p>
+    </div>
   </footer>
+
 </body>
+
 </html>

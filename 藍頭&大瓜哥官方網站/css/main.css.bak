@@ -1,0 +1,106 @@
+html {
+  font-size: 22px;
+}
+body {
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 50%, #90caf9 100%);
+  margin: 0;
+}
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 48px 32px 0 32px;
+}
+section {
+  margin-bottom: 3em;
+}
+.main-title {
+  text-align: center;
+  font-size: 2.5em;
+}
+.center-title {
+  text-align: center;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.3em;
+}
+p, li {
+  font-size: 1.1em;
+}
+ul, ol {
+  font-size: 1.1em;
+}
+.btn-row, .avatar-row, .flex-center {
+  display: flex;
+  justify-content: center;
+  gap: 2.5em;
+  flex-wrap: wrap;
+}
+.invite-btn {
+  font-size: 1.1em;
+  padding: 1.2em 2.4em;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: background 0.2s;
+  background: #2196f3;
+}
+.invite-btn.green {
+  background: #43a047;
+}
+
+/* 新增 footer 按鈕樣式 */
+.footer-btn-row {
+  display: flex;
+  justify-content: center;
+  gap: 4em;
+  margin: 2em 0;
+}
+.footer-btn {
+  display: inline-block;
+  padding: 0.8em 2em;
+  border-radius: 8px;
+  background: #1976d2;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.footer-btn:hover {
+  background: #1565c0;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+
+.avatar-img {
+  border-radius: 50%;
+  object-fit: cover;
+  max-width: 220px;
+  max-height: 220px;
+  width: auto;
+  height: auto;
+  margin-top: 16px; 
+}
+.team-member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #eee;
+}
+.center-list {
+  display: inline-block;
+  text-align: left;
+}
+@media (max-width: 900px) {
+  html { font-size: 18px; }
+  main { padding: 12px 2vw 0 2vw; }
+  .avatar-img { width: 120px !important; height: 120px !important; }
+  .feature-img { max-width: 98vw; }
+  .team-member img { width: 60px; height: 60px; }
+  .footer-btn-row { gap: 1em; flex-wrap: wrap; }
+  .footer-btn { padding: 0.7em 1em; font-size: 1em; }
+}
